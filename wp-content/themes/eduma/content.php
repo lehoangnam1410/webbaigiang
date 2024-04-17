@@ -47,7 +47,7 @@ $classes[] = 'col-sm-12';
 				?>
 			</div>
 			<div class="readmore">
-				<a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html__( 'Read More', 'eduma' ); ?></a>
+				<a href="<?php echo esc_url( get_permalink() ); ?>"><?php echo esc_html__( 'Đọc tiếp', 'eduma' ); ?></a>
 			</div>
 		</div>
 	</div>

@@ -42,7 +42,7 @@ if ( have_comments() && ! ( ! comments_open() && '0' != get_comments_number() &&
 			<div class="comment-list-inner">
 				<h3 class="comments-title">
 					<?php
-					printf( _nx( '1 Comment', '%1$s Comments', get_comments_number(), 'comments title', 'eduma' ), number_format_i18n( get_comments_number() ) );
+					printf( _nx( '1 Comment', '%1$s Bình luận', get_comments_number(), 'comments title', 'eduma' ), number_format_i18n( get_comments_number() ) );
 					?>
 				</h3>
 					<?php wp_list_comments( 'style=li&&type=comment&avatar_size=90&callback=thim_comment' ); ?>
@@ -68,8 +68,8 @@ if ( have_comments() && ! ( ! comments_open() && '0' != get_comments_number() &&
 	<?php endif; ?>
 	<div class="comment-respond-area">
 		<?php comment_form( array(
-			'title_reply'   => esc_html__( 'Leave A Reply', 'eduma' ),
-			'label_submit'  => esc_html__( 'Post Comment', 'eduma' ),
+			'title_reply'   => esc_html__( 'qeweq', 'eduma' ),
+			'label_submit'  => esc_html__( 'Bình luận', 'eduma' ),
 			'comment_field' => '<p class="comment-form-comment"><textarea placeholder="' . esc_attr__( 'Comment *', 'eduma' ) . '" id="comment" name="comment" cols="45" rows="8" aria-required="true">' . '</textarea></p>'
 		) ); ?>
 	</div>

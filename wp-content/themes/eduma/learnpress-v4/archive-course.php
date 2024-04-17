@@ -54,6 +54,7 @@ if ( $layout_setting == 'list_courses' ) {
 
 $default_order = apply_filters(
 	'thim_default_order_course_option',
+	// chức năng tìm kiếm
 	array(
 		'post_date'  => esc_html__( 'Newly published', 'eduma' ),
 		'post_title' => esc_html__( 'Alphabetical', 'eduma' ),

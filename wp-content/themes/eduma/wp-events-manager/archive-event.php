@@ -24,11 +24,11 @@ get_header();
 
 do_action( 'thim_wrapper_loop_start' );
 
-$default_tab       = array( 'happening', 'upcoming', 'expired' );
+$default_tab       = array( 'happening', 'upcoming' );
 $default_tab_title = array(
-	'happening' => esc_html__( 'Happening', 'eduma' ),
-	'upcoming'  => esc_html__( 'Upcoming', 'eduma' ),
-	'expired'   => esc_html__( 'Expired', 'eduma' )
+	'happening' => esc_html__( 'Đang diễn ra', 'eduma' ),
+	'upcoming'  => esc_html__( 'Sắp diễn ra', 'eduma' ),
+	'expired'   => esc_html__( '', 'eduma' )
 );
 $output_tab        = array();
 
